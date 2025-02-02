@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="profile-card">
+        <!-- Profile Picture -->
+        <img src="wallpaper.jpg" alt="Profile Picture" class="profile-picture" data-testid="profilePicture">
+
+        <!-- Full Name -->
+        <h1 class="full-name" data-testid="fullName">Omowunmi Mustapha</h1>
+
+        <!-- Job Title -->
+        <h2 class="job-title" data-testid="jobTitle">Front-end Developer</h2>
+
+        <!-- Short Bio -->
+        <p class="short-bio" data-testid="shortBio">
+            A tech enthusiast with a foundation in accounting, combining analytical strengths with front-end development
+            expertise. Experienced in volunteer leadership and hands-on web development, with skills in problem-solving,
+            financial analysis, and project management.
+
+        </p>
+
+        <!-- Current Location -->
+        <p class="current-location" data-testid="currentLocation">Lagos, Nigeria</p>
+
+        <!-- Email Address -->
+        <a href="mailto:wunmiemustapha@gmail.com" class="email-address"
+            data-testid="emailAddress">wunmiemustapha@gmail.com</a>
+
+        <!-- Social Links -->
+        <div class="social-links" data-testid="socialLinks">
+            <a href="https://www.linkedin.com/in/maariam-m-886260271" target="_blank">LinkedIn</a>
+            <a href="https://github.com/Wunmie21" target="_blank">GitHub</a>
+            <a href="https://twitter.com/wunmie_x" target="_blank">Twitter</a>
+        </div>
+
+        <!-- Current Time in UTC -->
+        <p id="utc-time" data-testid="currentTimeUTC"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
